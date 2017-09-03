@@ -1,4 +1,4 @@
 /data
 /lib
-/.pioenvs*
-/.piolibdeps
+.pioenvs
+.piolibdeps
