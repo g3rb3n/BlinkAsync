@@ -6,7 +6,7 @@ namespace g3rb3n
 {
 
   BlinkAsync::BlinkAsync():
-    pin(LED_BUILTIN)
+    pin(PIN)
   {
     pinMode(pin, OUTPUT);
   }
@@ -18,7 +18,7 @@ namespace g3rb3n
   }
 
   BlinkAsync::BlinkAsync(uint8_t _lowState, uint8_t _highState):
-    pin(LED_BUILTIN), lowState(_lowState), highState(_highState)
+    pin(PIN), lowState(_lowState), highState(_highState)
   {
     pinMode(pin, OUTPUT);
   }
