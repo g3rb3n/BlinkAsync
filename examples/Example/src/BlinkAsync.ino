@@ -2,7 +2,7 @@
 
 using namespace g3rb3n;
 
-BlinkAsync led(LED_BUILTIN, HIGH, LOW);
+BlinkAsync led;
 
 void setup() 
 {
